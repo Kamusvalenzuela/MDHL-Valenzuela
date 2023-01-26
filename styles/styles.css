@@ -1,0 +1,90 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.imglogo{
+    width: 240px;
+    height: 240px;
+    /* border: solid orange; */
+    display: inline-block;
+}
+
+.textito{
+    display: flex;
+    flex-direction: row;
+    /* border: gray; */
+}
+
+article{
+    padding-left: 10px;
+    display: inline;
+    /* border: solid orange; */
+}
+.banner{
+    height: 400px;
+    background-image: url(../assets/design1_image2.jpg);
+    background-size: cover;
+}
+
+.button{
+    padding: 1px 5px;
+    text-decoration: none;
+    font-style: oblique;
+    font-size: 14px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode';
+    color: white;
+    border: 1px solid black;
+    background-color: rgb(10, 98, 180);
+    display: inline-flex;
+}
+.button:hover{
+    background-color: rgb(71, 100, 26);
+    display: inline-flex;
+}
+.button_active{
+    padding: 1px 5px;
+    text-decoration: none;
+    font-style: oblique;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode';
+    color: white;
+    border: 1px solid black;
+    background-color: rgb(96, 158, 4);
+    display: inline-flex;
+}
+
+nav{
+    display: inline;
+    /* border: solid orange; */
+    position: sticky;
+    left: 80%;
+    top: 3.5%;
+}
+.abt p{
+    text-indent: 20%;
+}
+
+h1{
+    /* background-color: grey; */
+    color: black;
+    width: fit-content;
+    height: fit-content;
+    /* border: solid orange; */
+}
+
+.fotito{
+    height: 210px;
+    display: block;
+    /* border: solid orange; */
+}
+
+.textmain{
+    text-align: center;
+    border: 2px solid black;
+}
+
+footer{
+    margin-top: 100px;
+    text-align: center;
+}

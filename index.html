@@ -5,32 +5,36 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Mighty Ducks Hockey League</title>
+    <link rel="stylesheet" href="./styles/styles.css">
 </head>
 <body>
     <header>
-        <img src="./assets/Logo.png" alt="MDHL logo" width="223" height="223">
-        <h1>Mighty Ducks Hockey League</h1>
+        <h1 class="mainttitle">Mighty Ducks Hockey League</h1>
+        <div class="banner">
+            <nav class="barrita">
+                <a class="button_active" href="#">Home</a>
+                <a class="button" href="./aboutmdhl.html">About</a>
+                <a class="button" href="./contact.html">Contact</a>
+            </nav>
+        </div>
     </header>
-    
-    <nav>
-        <a href="#">Home |</a>
-        <a href="./aboutmdhl.html">About MDHL |</a>
-        <a href="./contact.html">Contact |</a>
-    </nav>
-
     <main>
-        <article>
-            <header>
-                <img src="./assets/hockey_1.jpg" alt="Hockey Player" width="223">
-                <h2>Upcoming events</h2>
-                <h3>August 4</h3>
-                <p>MDSL Fundraiser</p>
-                <h3>August 16</h3>
-                <p>Season Kick-off: Meet the teams</p>
-                <h3>September 1</h3>
-                <p>First Game of the Season (Check game schedule for details)</p>
-            </header>
-        </article>
+        <section>
+                <h2 class="textmain">Upcoming events</h2>
+                <div class="textito">
+                    <img class="imglogo" src="./assets/Logo.png" alt="logo">
+                        <article>
+                            <img class="fotito" src="./assets/hockey_1.jpg" alt="imagen 1">
+                            <h3>August 4</h3>
+                            <p>MDSL Fundraiser</p>
+                            <h3>August 16</h3>
+                            <p>Season Kick-off: Meet the teams</p>
+                            <h3>September 1</h3>
+                            <p>First Game of the Season (Check game schedule for details)</p>
+                        </article>
+                </div>
+        </section>
     </main>
+    <footer> MDHL All rights reserved 2023.</footer>
 </body>
 </html>
