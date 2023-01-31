@@ -1,33 +1,53 @@
+/* <-------------------------Changes everything-------------------------> */
 *{
     padding: 0;
     margin: 0;
     box-sizing: border-box;
 }
-
+/* <-------------------------Images-------------------------> */
+.banner{
+    height: 400px;
+    background-image: url(../assets/design1_image2.jpg);
+    background-size: cover;
+}
 .imglogo{
     width: 240px;
     height: 240px;
     /* border: solid orange; */
     display: inline-block;
 }
-
+.fotito{
+    height: 210px;
+    display: block;
+    /* border: solid orange; */
+}
+/* <-------------------------Texts-------------------------> */
 .textito{
     display: flex;
     flex-direction: row;
     /* border: gray; */
 }
-
 article{
     padding-left: 10px;
     display: inline;
     /* border: solid orange; */
 }
-.banner{
-    height: 400px;
-    background-image: url(../assets/design1_image2.jpg);
-    background-size: cover;
+.abt p{
+    text-indent: 20%;
 }
+h1{
+    /* background-color: grey; */
+    color: black;
+    width: fit-content;
+    height: fit-content;
+    /* border: solid orange; */
+}
+.conteiner_maintittle{
+   align-content:center;
+}
+/* <-------------------------Conteiners-------------------------> */
 
+/* <-------------------------Buttons-------------------------> */
 .button{
     padding: 1px 5px;
     text-decoration: none;
@@ -61,30 +81,4 @@ nav{
     left: 80%;
     top: 3.5%;
 }
-.abt p{
-    text-indent: 20%;
-}
 
-h1{
-    /* background-color: grey; */
-    color: black;
-    width: fit-content;
-    height: fit-content;
-    /* border: solid orange; */
-}
-
-.fotito{
-    height: 210px;
-    display: block;
-    /* border: solid orange; */
-}
-
-.textmain{
-    text-align: center;
-    border: 2px solid black;
-}
-
-footer{
-    margin-top: 100px;
-    text-align: center;
-}
