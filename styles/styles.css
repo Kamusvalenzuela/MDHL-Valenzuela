@@ -85,7 +85,7 @@ h2 {
 
 .textmain {
     align-content: center;
-    flex: 10% 1 auto;
+    flex: auto;
 }
 
 p {
@@ -101,6 +101,7 @@ p {
 
 /* <-------------------------Buttons-------------------------> */
 .button {
+    margin: 5px 5px;
     padding: 1px 5px;
     text-decoration: none;
     font-style: oblique;
@@ -139,8 +140,8 @@ nav {
 
 .abajo {
     position: absolute;
-    left: 80%;
-    top: 80%;
+    left: 43%;
+    top: 35%;
 }
 
 /* La clase de arriba no me está funcionando y tengo que trabajar, luego veo de qué se trata */
