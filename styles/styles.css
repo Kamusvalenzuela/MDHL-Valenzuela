@@ -282,20 +282,10 @@ form fieldset {
     font-weight: bold;
 }
 
-/* FOOTER ---------------------------------------------------*/
-footer {
-    margin-top: 100px;
-    text-align: center;
-    display: flex;
-    justify-content: center;
-}
 
-footer p {
-    margin: 10px;
-    font-size: 1em;
-}
 
-/* Falta eliminar clases viejas y adicionar alguna que otra que me faltó (porque la creé pero no la apliqué acá) */
+/* Hasta acá se hizo la task3 */
+/* Update: Arriba metí más cosas que modifican el HTML generalizado */
 
 
 
@@ -324,7 +314,7 @@ header h1{
 
 }
 
-                /* MENÚ */
+/* Menú de testeo (No funcional creo)*/
 header nav {
     display: flex;
     justify-content: space-evenly;
@@ -341,9 +331,6 @@ header nav a{
     color: rgba(255, 255, 255, 0.438);
 }
 
-header nav a:hover{
-    color: yellow;
-}
 main section{
     width: 60vw;
     background-color: white;
@@ -361,7 +348,7 @@ main section h2{
 
 }
 
-/* PAGINA GAME */
+/* GameInfo page */
 
 table{
     border-collapse: collapse;
@@ -390,24 +377,13 @@ th, td{
     padding: 1vw;
 }
 
-/* Contenido Tabla */
-
-.seccionTabla div{
-    margin-bottom: 25px;
-
-}
-.seccionTabla div p{
-    margin: 15px 0;
-}
+/* table content */
 
 iframe{
     width: 5vw;
     height: 5vh;
 }
-.contacto{
-    display: flex;
-    justify-content: space-between;
-}
+
 span{
     font-weight: bold;
 }
@@ -424,16 +400,6 @@ form fieldset{
     border: none;
 }
 
-/* persona */
-.datoPersona{
-    display: flex;
-    flex-direction: column;
-    width: 100%;
-}
-
-.datopersonaInterno div{
-    margin-bottom: 10px;    
-}
 
 
 /* escuela */
@@ -462,4 +428,16 @@ form fieldset{
     background-color: rgba(0, 0, 0, 0.658);
     color: white;
     font-weight: bold;
+}
+/* FOOTER ---------------------------------------------------*/
+footer {
+    margin-top: 100px;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+}
+
+footer p {
+    margin: 10px;
+    font-size: 1em;
 }
