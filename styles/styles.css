@@ -1,0 +1,465 @@
+/* <-------------------------Changes everything-------------------------> */
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+/* body {
+    display: flex;
+    flex-wrap: wrap;
+} */
+/* Por algún motivo habilitar esto me corre el footer a la izquierda */
+html *{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: rgba(0, 0, 0, 0.288);
+}
+
+                /* ENCABEZADO */
+
+header img {
+    width: 10vw;
+  
+}
+main{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    
+}
+/* <-------------------------IMAGES-------------------------> */
+
+header {
+    height: 300px;
+    width: 100%;
+    background-image: url(../assets/design1_image2.jpg);
+    background-size: auto;
+    min-height: 20vh;
+    margin: 5px 5px;
+    border-radius: 10px;
+}
+
+.imgLogo {
+    width: 150px;
+    height: 150px;
+    /* border: solid orange; */
+    display: flex;
+    align-content: center;
+}
+
+.fotito {
+    height: 250px;
+    padding-left: 10%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+/* Todavía me sigo preguntando porqué estoy poniendo clases en español e ingles... no me acostumbro a esto y encima acabo más perdido (-__-) */
+/* <-------------------------TEXTS-------------------------> */
+.textito {
+    display: flex;
+    flex-direction: row;
+    /* border: gray; */
+}
+
+.page-title {
+    flex-wrap: nowrap;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+article {
+    padding-left: 10px;
+    display: inline;
+    /* border: solid orange; */
+}
+
+.abt p {
+    text-indent: 20%;
+}
+
+h1 {
+    font-size: 6vh;
+    margin: 0px 20px 0px 20px;
+}
+
+h2 {
+    font-size: xx-large;
+    font-weight: 1000;
+    margin: 0px 50px 0px 50px;
+    text-align: center;
+}
+.textmain{
+    font-size: xx-large;
+    font-weight: 1000;
+    margin: 0px 50px 0px 50px;
+    text-align: center;
+}
+
+.salto {
+    justify-content: center;
+    align-items: center;
+}
+
+/* .textmain {
+    align-content: center;
+    flex: auto;
+} */
+
+p {
+    text-indent: 20px;
+    font-size: larger;
+    margin-block: 3vh;
+}
+
+/* <-------------------------CONTAINERS-------------------------> */
+.articles {
+    margin: 0vh 12vh 0vh 12vh;
+}
+
+/* <-------------------------Buttons-------------------------> */
+.button {
+    margin: 5px 5px;
+    padding: 1px 5px;
+    text-decoration: none;
+    font-style: oblique;
+    font-size: 14px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode';
+    color: white;
+    border: 1px solid black;
+    background-color: rgb(10, 98, 180);
+    display: inline-flex;
+}
+
+.button:hover {
+    background-color: rgb(71, 100, 26);
+    display: inline-flex;
+}
+
+.button_active {
+    padding: 1px 5px;
+    text-decoration: none;
+    font-style: oblique;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode';
+    color: white;
+    border: 1px solid black;
+    background-color: rgb(96, 158, 4);
+    display: inline-flex;
+}
+
+nav {
+    display: flex;
+    /* border: solid orange; */
+    position: absolute;
+    justify-content: center;
+    left: 35%;
+    top: 330px;
+}
+
+.abajo {
+    position: absolute;
+    left: 43%;
+    top: 35%;
+}
+
+/* La clase de arriba no me está funcionando y tengo que trabajar, luego veo de qué se trata */
+
+.nav-container {
+    display: flex;
+    align-items: center;
+}
+
+nav a {
+    padding: 10px;
+}
+
+/* LISTS ---------------------------------------------------*/
+
+li {
+    padding: 7px;
+}
+
+.head-list {
+    text-align: center;
+    font-size: x-large;
+    margin-bottom: 10px;
+}
+
+.alphabetic-lists {
+    list-style: lower-latin;
+    margin-left: 40px;
+}
+
+.head-sub-list {
+    margin-top: 15px;
+    text-decoration: underline;
+}
+
+/* TABLES ---------------------------------------------------*/
+.table-titles {
+    text-align: center;
+    font-weight: 1000;
+}
+
+.table1 {
+    border: 2px solid rgb(78, 76, 163);
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.table2 {
+    margin: 10px 0px 20px 0px;
+    text-align: left;
+}
+
+th {
+    font-weight: 700;
+    font-size: larger;
+}
+
+td {
+    padding: 5px;
+    font-size: larger;
+}
+/* FORMS */
+form {
+    width: 60vw;
+    padding: 2vw;
+    background-color: white;
+    border-radius: 20px;
+}
+
+form fieldset {
+    border: none;
+}
+
+/* persona */
+.personalData {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+}
+
+.personaldataInternal div {
+    margin-bottom: 10px;
+}
+
+
+/* escuela */
+.schoolData {
+    display: flex;
+}
+
+.schoolDataInternal {
+    display: flex;
+    flex-direction: column;
+
+}
+
+.schoolDataInternal div {
+    width: 15vw;
+    margin-bottom: 10px;
+}
+
+/* Boton de Send*/
+#boton {
+    padding: 10px;
+    margin-top: 5px;
+    text-transform: uppercase;
+    border-radius: 10px;
+    border: none;
+    background-color: rgba(0, 0, 0, 0.658);
+    color: white;
+    font-weight: bold;
+}
+
+/* FOOTER ---------------------------------------------------*/
+footer {
+    margin-top: 100px;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+}
+
+footer p {
+    margin: 10px;
+    font-size: 1em;
+}
+
+/* Falta eliminar clases viejas y adicionar alguna que otra que me faltó (porque la creé pero no la apliqué acá) */
+
+
+
+.opacity{ 
+    height: 50vh;
+    background-image: url("../assets/design1_image1.jpg");
+    background-size: cover;
+    background-position: center;
+}
+
+.titulo{
+    position: absolute;
+    top: 0;
+    background-color: rgba(0, 0, 0, 0.411);
+    width: 100vw;
+    height: 50vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    
+}
+
+header h1{
+    font-size: 50px;
+
+}
+
+                /* MENÚ */
+header nav {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    width: 100vw;
+    height: 10vh;    
+    background-color: rgba(0, 0, 0, 0.658);
+}
+
+header nav a{
+    text-decoration: none;
+    text-transform: uppercase;
+    font-weight: bold;
+    color: rgba(255, 255, 255, 0.438);
+}
+
+header nav a:hover{
+    color: yellow;
+}
+main section{
+    width: 60vw;
+    background-color: white;
+    border-radius: 5px;
+    margin-top: 10px;
+    padding: 3vw;
+}
+
+main section h3{
+    margin-bottom: 1vh;
+}
+main section h2{
+    text-align: center;
+    margin-bottom: 10px;
+
+}
+
+/* PAGINA GAME */
+
+table{
+    border-collapse: collapse;
+    width: 60%;        
+}
+thead{
+    background-color: yellow;
+}
+tbody{
+    background-color: rgba(255, 255, 0, 0.705);
+}
+
+.filaTabla{
+    font-weight: bold;
+    text-transform: uppercase;
+
+}
+table, th, td{
+    border: 2px solid black;
+    border-collapse: collapse;    
+    text-align: center;
+
+}
+
+th, td{
+    padding: 1vw;
+}
+
+/* Contenido Tabla */
+
+.seccionTabla div{
+    margin-bottom: 25px;
+
+}
+.seccionTabla div p{
+    margin: 15px 0;
+}
+
+iframe{
+    width: 5vw;
+    height: 5vh;
+}
+.contacto{
+    display: flex;
+    justify-content: space-between;
+}
+span{
+    font-weight: bold;
+}
+
+/* FORMULARIO */
+form{
+    width: 60vw;
+    padding: 2vw;
+    background-color:white;
+    border-radius: 20px;
+}
+
+form fieldset{
+    border: none;
+}
+
+/* persona */
+.datoPersona{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+}
+
+.datopersonaInterno div{
+    margin-bottom: 10px;    
+}
+
+
+/* escuela */
+.schoolData{
+    display: flex;
+}
+
+.schoolDataInternal{
+    display: flex;
+    flex-direction: column;
+
+}
+
+.schoolDataInternal div{
+    width: 15vw;
+    margin-bottom: 10px;    
+}
+
+/* Boton */
+#boton{
+    padding: 10px;
+    margin-top: 5px;
+    text-transform: uppercase;
+    border-radius: 10px;
+    border: none;
+    background-color: rgba(0, 0, 0, 0.658);
+    color: white;
+    font-weight: bold;
+}

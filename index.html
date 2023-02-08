@@ -5,32 +5,38 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Mighty Ducks Hockey League</title>
+    <link rel="stylesheet" href="./styles/styles.css">
+    <link rel="shortcut icon" href="./assets/favicon.ico" type="image/x-icon">
 </head>
 <body>
     <header>
-        <img src="./assets/Logo.png" alt="MDHL logo" width="223" height="223">
-        <h1>Mighty Ducks Hockey League</h1>
+        <h1 class="maintitle">Mighty Ducks Hockey League</h1>
     </header>
-    
-    <nav>
-        <a href="#">Home |</a>
-        <a href="./aboutmdhl.html">About MDHL |</a>
-        <a href="./contact.html">Contact |</a>
-    </nav>
-
     <main>
-        <article>
-            <header>
-                <img src="./assets/hockey_1.jpg" alt="Hockey Player" width="223">
-                <h2>Upcoming events</h2>
-                <h3>August 4</h3>
-                <p>MDSL Fundraiser</p>
-                <h3>August 16</h3>
-                <p>Season Kick-off: Meet the teams</p>
-                <h3>September 1</h3>
-                <p>First Game of the Season (Check game schedule for details)</p>
-            </header>
-        </article>
+        <section>
+                <nav class="nav-container">
+                    <a href="#" class="button_active flex-container">Home</a>
+                    <a href="./aboutMDHL.html" class="button flex-container">About Us</a>
+                    <a href="./contact.html" class="button flex-container">Contact</a>
+                    <a href="./rules.html" class="button flex-container">Rules</a>
+                    <a href="./game_info.html" class="button flex-container">Game Info</a>
+                    <a href="./registration.html" class="button flex-container">Registration</a>
+                </nav>
+                <h2 class="page-title">Upcoming events</h2>
+                <div class="textito">
+                    <img class="imgLogo" src="./assets/Logo.png" alt="logo">
+                        <article>
+                            <img class="fotito" src="./assets/hockey_1.jpg" alt="imagen 1">
+                            <h3>August 4</h3>
+                            <p>MDSL Fundraiser</p>
+                            <h3>August 16</h3>
+                            <p>Season Kick-off: Meet the teams</p>
+                            <h3>September 1</h3>
+                            <p>First Game of the Season (Check game schedule for details)</p>
+                        </article>
+                </div>
+        </section>
     </main>
+    <footer> MDHL All rights reserved 2023.</footer>
 </body>
 </html>
